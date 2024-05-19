@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Street.unity
+- path: Assets/Scenes/State Building.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
