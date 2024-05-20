@@ -1,0 +1,2058 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'tr' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/lutfu/Desktop/WORK/UNITY/Lütfullah/Yapay Zeka Game Jam
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50647
+Successfully changed project path to: C:/Users/lutfu/Desktop/WORK/UNITY/Lütfullah/Yapay Zeka Game Jam
+C:/Users/lutfu/Desktop/WORK/UNITY/Lütfullah/Yapay Zeka Game Jam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14828] Host "[IP] 192.168.1.114 [Port] 0 [Flags] 2 [Guid] 1012988186 [EditorId] 1012988186 [Version] 1048832 [Id] WindowsEditor(7,L�tfullah) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14828] Host "[IP] 192.168.1.114 [Port] 0 [Flags] 2 [Guid] 1012988186 [EditorId] 1012988186 [Version] 1048832 [Id] WindowsEditor(7,L�tfullah) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 5.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lutfu/Desktop/WORK/UNITY/Lütfullah/Yapay Zeka Game Jam/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.5244
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005510 seconds.
+- Loaded All Assemblies, in  0.362 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 199 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.486 seconds
+Domain Reload Profiling: 847ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (146ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (486ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (431ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (310ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.491 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.621 seconds
+Domain Reload Profiling: 1111ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (621ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (492ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.2 KB). Loaded Objects now: 3585.
+Memory consumption went from 131.7 MB to 131.6 MB.
+Total: 4.189100 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.196900 ms MarkObjects: 3.530000 ms  DeleteObjects: 0.131200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 699.539386 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Door Frame_01.prefab
+  artifactKey: Guid(680503713abcfb149bae4f505b6c449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Door Frame_01.prefab using Guid(680503713abcfb149bae4f505b6c449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e8909f5cd471917410e4d0a6922c3e') in 0.093126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.523824 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Roof_01.prefab
+  artifactKey: Guid(75c16d4794f25e84ea8d82ee45dd1937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Roof_01.prefab using Guid(75c16d4794f25e84ea8d82ee45dd1937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75e55f63cad8ac2b59e205770230422') in 0.054891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.929736 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Roof_02.prefab
+  artifactKey: Guid(dd6658866c1c65a4aa4a6c6e8e34e4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Roof_02.prefab using Guid(dd6658866c1c65a4aa4a6c6e8e34e4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e56366e7b20c6393aaa7da45ee57019') in 0.057824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.194952 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Roof_03.prefab
+  artifactKey: Guid(8c565f534ef70fc4bbe3ede8f7750d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_Roof_03.prefab using Guid(8c565f534ef70fc4bbe3ede8f7750d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b07135598cc31c9eb224e43d7a9f724') in 0.041636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.721467 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt
+  artifactKey: Guid(9afd4e361873a3c418be8c5277bede65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt using Guid(9afd4e361873a3c418be8c5277bede65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d81fd9eaee2f120a17b02c0f55cb3a') in 0.000891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.690817 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrameDoor_01.prefab
+  artifactKey: Guid(eaaaafd5975a5d544a3d11507b3670ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrameDoor_01.prefab using Guid(eaaaafd5975a5d544a3d11507b3670ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5216b2d5bd52c7b379ab02482146e65e') in 0.016844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.497105 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrame_02.prefab
+  artifactKey: Guid(8e3b94d51cc83074abb1a25bf3535c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrame_02.prefab using Guid(8e3b94d51cc83074abb1a25bf3535c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55a05b713f2f72eccac2e788e13958a') in 0.012757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.176413 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrame_01.prefab
+  artifactKey: Guid(8a4a119fc2ad9fa40817bd6773fe107a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrame_01.prefab using Guid(8a4a119fc2ad9fa40817bd6773fe107a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99ba61f280bdec972323fdf4cbda99d') in 0.015549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.370633 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_01_Pillar_4x4.prefab
+  artifactKey: Guid(94c14dfc6c607a44486aa4e3dbc3f125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior/Ext_BA_01_Pillar_4x4.prefab using Guid(94c14dfc6c607a44486aa4e3dbc3f125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b7530aa98aa92fa8637d3928ae4503') in 0.044198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.182500 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior
+  artifactKey: Guid(496d8c9e31792f74d8b73d659a2e0021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior using Guid(496d8c9e31792f74d8b73d659a2e0021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134e5fd1c8a12364dca4c43b55729cf8') in 0.001959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.093011 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames
+  artifactKey: Guid(33233f0716dd88343a635208cb699de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames using Guid(33233f0716dd88343a635208cb699de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e85f980acbea973ef59b9377a1800c7') in 0.000581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.680640 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Frame_02.prefab
+  artifactKey: Guid(6b0fe008d0f2fd649ba26243e4ef0ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Frame_02.prefab using Guid(6b0fe008d0f2fd649ba26243e4ef0ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528fe041da8b45926e13d10b00c882a5') in 0.014544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.806974 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Frame_01.prefab
+  artifactKey: Guid(b973231003cf93b4f8dd9837bafc50cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Frame_01.prefab using Guid(b973231003cf93b4f8dd9837bafc50cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd935a47b6e5cd340eebd9d5505e085c8') in 0.021201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.488453 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Door_01.prefab
+  artifactKey: Guid(62bd457adfa663b4b8de2903bb4c8006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Door_01.prefab using Guid(62bd457adfa663b4b8de2903bb4c8006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1509c7c38ddcb5666296168f6944a6') in 0.017818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 1.948551 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01
+  artifactKey: Guid(0cc4773c292517d4695373e2a182abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01 using Guid(0cc4773c292517d4695373e2a182abb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95264f475c705ef5efcd7742b214aea2') in 0.000656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.676157 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Filler_03.prefab
+  artifactKey: Guid(5d67674c5abd5e74eb23b8e2a1e01d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Filler_03.prefab using Guid(5d67674c5abd5e74eb23b8e2a1e01d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da76a2fdfc597201a956524b36d6161') in 0.033512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.637869 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Filler_02.prefab
+  artifactKey: Guid(586efc4ccee24ca4883a7542f1e326bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Filler_02.prefab using Guid(586efc4ccee24ca4883a7542f1e326bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530ee9967161c972d1d61747f48443f5') in 0.021015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.170812 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Wall_02.prefab
+  artifactKey: Guid(feb38e40cfc697547a18577613164676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Wall_02.prefab using Guid(feb38e40cfc697547a18577613164676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44969ae56794bd6bde013eae83a6b88') in 0.019180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.562685 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_4x4.prefab
+  artifactKey: Guid(c83e0dcf64994e249a7357b1eb31da5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_4x4.prefab using Guid(c83e0dcf64994e249a7357b1eb31da5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412d5e3db297ebe0e0b8b1c497299dec') in 0.019369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.828880 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Wall_03.prefab
+  artifactKey: Guid(2f0bc8ecefb88eb4481fa90771c8e7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Wall_03.prefab using Guid(2f0bc8ecefb88eb4481fa90771c8e7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598f4d12efe563013d31cf07d7ae7ed4') in 0.017437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.437619 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02
+  artifactKey: Guid(c5ab3555673620d478f6edc0ab21bd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02 using Guid(c5ab3555673620d478f6edc0ab21bd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd6a4924a4425e29fa3b768d70d149f') in 0.002025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.615673 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_03.prefab
+  artifactKey: Guid(b5ea4c1fc5a7a044c8b2c38bf36cffe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_03.prefab using Guid(b5ea4c1fc5a7a044c8b2c38bf36cffe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2801f99d39c282aed178d7923e0c2195') in 0.030752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.716747 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_02.prefab
+  artifactKey: Guid(e865b35190d61134389351f1fb9a589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_02.prefab using Guid(e865b35190d61134389351f1fb9a589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e27760633b06f9bb57d6fefa01cde9c') in 0.018988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.807713 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_01.prefab
+  artifactKey: Guid(74787c4efc3c48d48ba66f7b4a32b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_01.prefab using Guid(74787c4efc3c48d48ba66f7b4a32b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fc6a5e34aa8bf945bead7823633879') in 0.018825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.155972 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Pillar_4x4.prefab
+  artifactKey: Guid(ffc1f19e9cc243a428196fcf5e1e552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Pillar_4x4.prefab using Guid(ffc1f19e9cc243a428196fcf5e1e552a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68de3ffbd6f49d688b122bac9025a10e') in 0.017472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.566500 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Pillar_3x3.prefab
+  artifactKey: Guid(9068914faab841c49adc9e106827f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Pillar_3x3.prefab using Guid(9068914faab841c49adc9e106827f827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bf98e8838cd91606ffb686ba02fd1e') in 0.019153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.753439 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BA_Ceiling Light_01.prefab
+  artifactKey: Guid(4f5fea46d0c567446b768005952642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BA_Ceiling Light_01.prefab using Guid(4f5fea46d0c567446b768005952642f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f6a82694d42ba7ecfce31ad3be7baa') in 0.032609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.608004 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BPS_Table_01.prefab
+  artifactKey: Guid(3a3c0bbe58beeff4a8d63acd5a770137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BPS_Table_01.prefab using Guid(3a3c0bbe58beeff4a8d63acd5a770137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216b5cb6ea75e6135425de6a4d64ef08') in 0.013757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.366 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.929 seconds
+Domain Reload Profiling: 1294ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (930ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (543ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3595.
+Memory consumption went from 131.3 MB to 131.2 MB.
+Total: 2.873900 ms (FindLiveObjects: 0.273200 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.446400 ms  DeleteObjects: 0.059800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 289.096741 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Wall_02.prefab
+  artifactKey: Guid(f01b8dde2f2266c4a9c87acaa4ed6003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Wall_02.prefab using Guid(f01b8dde2f2266c4a9c87acaa4ed6003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e3e63a086e2b910dd0c00e6f390bf8') in 0.088877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.762424 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Wall_Double_01.prefab
+  artifactKey: Guid(252cc1d947dc9f34fa0d633f87bbcfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Wall_Double_01.prefab using Guid(252cc1d947dc9f34fa0d633f87bbcfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27845c356c8cbc992282bea6d0038d12') in 0.033252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.946831 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Wall_01.prefab
+  artifactKey: Guid(c5be39b879c83f54d9bbfebe68c809be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Wall_01.prefab using Guid(c5be39b879c83f54d9bbfebe68c809be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cae1b606d78cdd264f43265e11fa22') in 0.027017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 4.114962 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Wall_03.prefab
+  artifactKey: Guid(17aade79dac654f4aa0b24a36cd4b136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Wall_03.prefab using Guid(17aade79dac654f4aa0b24a36cd4b136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9362475be190cd3a9dd54ad1698f279') in 0.021064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.837347 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Wall_04.prefab
+  artifactKey: Guid(0d62acd7333a2844eb00217800ed1f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Wall_04.prefab using Guid(0d62acd7333a2844eb00217800ed1f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44be1269b1d983cba5fa4ef81bdcd26') in 0.022908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.236962 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Wall_02.prefab
+  artifactKey: Guid(1b521e989c39fb544aaf387f9eda3db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Wall_02.prefab using Guid(1b521e989c39fb544aaf387f9eda3db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c85859c7d675129b01c64233fc598e') in 0.022005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 8.129609 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/DoorFrame_Apt_03.prefab
+  artifactKey: Guid(f3e82dc7c471ff447b3ca0e0bfded076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/DoorFrame_Apt_03.prefab using Guid(f3e82dc7c471ff447b3ca0e0bfded076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108fb86872b645513aab07edd335385a') in 0.022082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 1.989695 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Frame_Apt_02.prefab
+  artifactKey: Guid(339af60aba47cba459f763bee7ddb43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Frame_Apt_02.prefab using Guid(339af60aba47cba459f763bee7ddb43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c701734c9ff3eda96826e4e3715d74') in 0.013563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.390717 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Int_apt_01_EdgeRail_01.prefab
+  artifactKey: Guid(a32793c2d7a973541a705148244340ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Int_apt_01_EdgeRail_01.prefab using Guid(a32793c2d7a973541a705148244340ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e96c6e7dd2c15748e03fff5df162a70') in 0.022174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.448464 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Int_apt_01_Staircase_01.prefab
+  artifactKey: Guid(3cdb710f55b8ba342bfc746fcebede5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Int_apt_01_Staircase_01.prefab using Guid(3cdb710f55b8ba342bfc746fcebede5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bcad5c08ce4f489dcdf61fc9bf717e') in 0.030482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 1.234582 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Int_apt_01_Boarder_01.prefab
+  artifactKey: Guid(1948577c0f767a2438c3970962e5da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/Int_apt_01_Boarder_01.prefab using Guid(1948577c0f767a2438c3970962e5da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4accbe208c6ab58bdb73a056be04e221') in 0.028995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.539184 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_BR_02_Floor.prefab
+  artifactKey: Guid(8934f512a6a9f714085a3d0dd88c1661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_BR_02_Floor.prefab using Guid(8934f512a6a9f714085a3d0dd88c1661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a96c70aa58226dc1e7d4b608015eab3') in 0.017477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 6.111210 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Apartment_Kit.prefab
+  artifactKey: Guid(9f5cf41eb9d32ea47906bc22c07fc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Apartment_Kit.prefab using Guid(9f5cf41eb9d32ea47906bc22c07fc533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30a969cf484fb85320e26f8757ba2b8') in 0.042972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 369
+========================================================================
+Received Import Request.
+  Time since last request: 16.941210 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Wall_02.prefab
+  artifactKey: Guid(2a316e236f1c5504baf1ef31847a4658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Wall_02.prefab using Guid(2a316e236f1c5504baf1ef31847a4658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72ac85a21c607a358a826e8971f070e') in 0.061053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.403884 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_Mid_01.prefab
+  artifactKey: Guid(5a8c5bdb2890760419fa0ba36befc73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_Mid_01.prefab using Guid(5a8c5bdb2890760419fa0ba36befc73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651b4ecabf3c3967a7a7b0d8d6798b7e') in 0.067631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.743694 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Special/Ext_apt_01_02.prefab
+  artifactKey: Guid(ec6a508d43c319f4e9a29995ea6c3489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Special/Ext_apt_01_02.prefab using Guid(ec6a508d43c319f4e9a29995ea6c3489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59e3a3f35c8120b22aebca111c747f4') in 0.019160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 11.297875 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom
+  artifactKey: Guid(e6d6b914a5388164984fc1790d9a6af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom using Guid(e6d6b914a5388164984fc1790d9a6af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88edd82206da354c714177d6ba028106') in 0.002957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.516886 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Shower_Handel_01.prefab
+  artifactKey: Guid(2c53d7677acbaf34b81c7da75f0544ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Shower_Handel_01.prefab using Guid(2c53d7677acbaf34b81c7da75f0544ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45e3f09804dd71ed83b8436b03dfab0') in 0.015134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.399295 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Toothbrush_01.prefab
+  artifactKey: Guid(4df090b3acce5624794706f81bcff9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Toothbrush_01.prefab using Guid(4df090b3acce5624794706f81bcff9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177d3cce5f9d4d2450b82fb93e71a44c') in 0.021273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.446500 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Toothbrush_02.prefab
+  artifactKey: Guid(3af3788489468634ca8551e4f49d373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Toothbrush_02.prefab using Guid(3af3788489468634ca8551e4f49d373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0564717ffb4efd16012e737a872a524b') in 0.013956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 14.635288 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Filler_02.prefab
+  artifactKey: Guid(da76ff28749b4d54ab63d4533af0b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Filler_02.prefab using Guid(da76ff28749b4d54ab63d4533af0b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f4d47a63563700025faf00ba78221b') in 0.026246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 298.386220 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/wine thin glass Red Wine.prefab
+  artifactKey: Guid(e32f2e76bad645746b596640d4736354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/wine thin glass Red Wine.prefab using Guid(e32f2e76bad645746b596640d4736354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba76d1e8ee64a75bfd8a11d489dd74e1') in 0.052897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.476963 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/wine bottle 04_Low Poly.prefab
+  artifactKey: Guid(e0f8fa703bcf04a419f5263f5020b059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/wine bottle 04_Low Poly.prefab using Guid(e0f8fa703bcf04a419f5263f5020b059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0e4c39646a71f56934e36223a9a161') in 0.091553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 11.358460 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Rug_Apt_02.prefab
+  artifactKey: Guid(c8efa0ebb83f8f9498202481854c76a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Rug_Apt_02.prefab using Guid(c8efa0ebb83f8f9498202481854c76a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1925fe8279af0b8283c7eee4ffa2ad') in 0.044200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.362336 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Wall Wine Rack_Apt_01.prefab
+  artifactKey: Guid(79b944a6d385a6444a7932d0dd93d9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Wall Wine Rack_Apt_01.prefab using Guid(79b944a6d385a6444a7932d0dd93d9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74947069bed353ae98a01f19fbc48cb') in 0.096270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 1.698350 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/WallArt_Apt_01.prefab
+  artifactKey: Guid(6ab6af969cb643e44b67269676f36669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/WallArt_Apt_01.prefab using Guid(6ab6af969cb643e44b67269676f36669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1440c7693cfe96b0588e33d9411a4d') in 0.071189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 1.520479 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/WallArt_Apt_04.prefab
+  artifactKey: Guid(2804d1473f02dbe46804e506168c85ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/WallArt_Apt_04.prefab using Guid(2804d1473f02dbe46804e506168c85ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b41204525b4063856c17670018e48e') in 0.037753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 1.438529 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Rug_Apt_01.prefab
+  artifactKey: Guid(7b8d9613223ef1f448bbe8fc90d8a85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Rug_Apt_01.prefab using Guid(7b8d9613223ef1f448bbe8fc90d8a85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894d0a2ee3170ac71cfecb7de8eefe10') in 0.021004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 26.487612 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Nat_04.prefab
+  artifactKey: Guid(75b51d9bb1b7e4d4b89e8edc75336c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Nat_04.prefab using Guid(75b51d9bb1b7e4d4b89e8edc75336c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0554cc668883edae991eda342488fb51') in 0.019710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.518212 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Nat_07.prefab
+  artifactKey: Guid(c5077b26080c7034cb161dfdaaf22c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Nat_07.prefab using Guid(c5077b26080c7034cb161dfdaaf22c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d4b8aa74aceb88d785c4ab3246d8ed') in 0.014289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.132599 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Nat_08.prefab
+  artifactKey: Guid(81681dbb7b5c6134ba68a4e523911dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Nat_08.prefab using Guid(81681dbb7b5c6134ba68a4e523911dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805b4c02e0e4cb1bc01915105965c0df') in 0.021360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 20.097647 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/DrinkingGlass_01.prefab
+  artifactKey: Guid(8dfa0d45cd834394f8c62eec3b88c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/DrinkingGlass_01.prefab using Guid(8dfa0d45cd834394f8c62eec3b88c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f248bdaa7a42e2236b6e29499584093') in 0.017882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.983668 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Plate_Apt_01_Stacked.prefab
+  artifactKey: Guid(ab931d06f54192f45ae5f39db40c6e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Plate_Apt_01_Stacked.prefab using Guid(ab931d06f54192f45ae5f39db40c6e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36fdbd230c7b81815c8fcabec82953b') in 0.011759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.767309 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Plate_Apt_02.prefab
+  artifactKey: Guid(677e48bdd6cf48e42ac397a1a8a64075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Plate_Apt_02.prefab using Guid(677e48bdd6cf48e42ac397a1a8a64075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73576a368d5f58d327f565d1439e003') in 0.012881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.222817 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Toaster_Apt_01.prefab
+  artifactKey: Guid(a104be747e53b0c4f875ab61494ff9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Toaster_Apt_01.prefab using Guid(a104be747e53b0c4f875ab61494ff9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976afb20c405ba95368e392399b92eba') in 0.014002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 146.257617 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_02_01.prefab
+  artifactKey: Guid(fe722613e8e23b04aba46967537bbce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_02_01.prefab using Guid(fe722613e8e23b04aba46967537bbce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb30047b53146a46b2836d71e2d49a4') in 0.040055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.985167 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_05.prefab
+  artifactKey: Guid(98d3eb0b3a4e0684ea38b5d3fe1c5fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_05.prefab using Guid(98d3eb0b3a4e0684ea38b5d3fe1c5fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c613b93872dd85206703e59af54209e') in 0.015079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 4.646675 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_02_04.prefab
+  artifactKey: Guid(6ad7ae35911007741856dfec75c6ab59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_02_04.prefab using Guid(6ad7ae35911007741856dfec75c6ab59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567da0fc56334ff112fc7e1f3f6942b9') in 0.034493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.438778 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_02_05.prefab
+  artifactKey: Guid(40399f95a6f26064ebdd3b08052bb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_02_05.prefab using Guid(40399f95a6f26064ebdd3b08052bb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd080c94405d09c03048b0fa5970e31') in 0.013058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.766997 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_03.prefab
+  artifactKey: Guid(f76f8084f4cb01349bb82ec41f49d28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_03.prefab using Guid(f76f8084f4cb01349bb82ec41f49d28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b07972c846edbdeb2638824759dec2') in 0.033614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 37.454016 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/GameController_Apt_01_02.prefab
+  artifactKey: Guid(f3421f20f5f724a4fab68ce9de3753e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/GameController_Apt_01_02.prefab using Guid(f3421f20f5f724a4fab68ce9de3753e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afaefe38bf21507d15d5c536dc053f0') in 0.036675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.970580 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/SS_01.prefab
+  artifactKey: Guid(f91743800f2ab3740ac9db4eedb46f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/SS_01.prefab using Guid(f91743800f2ab3740ac9db4eedb46f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdf2ad9a50ebbc2688dfaf007ca5959') in 0.059747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.374154 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/SS_Stand_01.prefab
+  artifactKey: Guid(70c062c3a7500e7479c9797b6190948e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/SS_Stand_01.prefab using Guid(70c062c3a7500e7479c9797b6190948e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfd25ded5e54068373e93dafd9abcb7') in 0.018136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 1.316675 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/TV_Apt_01.prefab
+  artifactKey: Guid(56a93cd127ed0184982c13ec0a61cfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/TV_Apt_01.prefab using Guid(56a93cd127ed0184982c13ec0a61cfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e667eae65986d0ea298eb64b85b98b4a') in 0.021574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 41.301949 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/KeyBoard_Apt_01.prefab
+  artifactKey: Guid(cf41c3b90dc3ff44c8efe4be6ce3494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/KeyBoard_Apt_01.prefab using Guid(cf41c3b90dc3ff44c8efe4be6ce3494c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc8d98439923dea3031f07fbd3115f7') in 0.031224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.266 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.250 seconds
+Domain Reload Profiling: 11514ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (3057ms)
+		LoadAssemblies (3108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (8250ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (531ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3598.
+Memory consumption went from 133.3 MB to 133.3 MB.
+Total: 2.941200 ms (FindLiveObjects: 0.275000 ms CreateObjectMapping: 0.121600 ms MarkObjects: 2.476100 ms  DeleteObjects: 0.067500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.538122 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets
+  artifactKey: Guid(1fefdc64112392844841a44ee966f389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets using Guid(1fefdc64112392844841a44ee966f389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a6fec44c428898d60f72e0d76b2aa4') in 0.005677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.853656 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_SD_01.prefab
+  artifactKey: Guid(d9d9f374cc51a6b4fb75751346d70b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_SD_01.prefab using Guid(d9d9f374cc51a6b4fb75751346d70b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da61a1988eca09c0ea37998813dbcad3') in 0.136087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 1.178990 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_Corner_01.prefab
+  artifactKey: Guid(9e4d4910b774d1f48810a4fa933835c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_Corner_01.prefab using Guid(9e4d4910b774d1f48810a4fa933835c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524a04a1e472dbd83417dad18567729f') in 0.021301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 5.665478 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room
+  artifactKey: Guid(53e140c5a0581424493108af1eb65836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room using Guid(53e140c5a0581424493108af1eb65836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9259afddec86b18fc0dbe4ed390052') in 0.001967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.885384 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Sofa_Apt_02.prefab
+  artifactKey: Guid(266d5a1d00e2ac2479b93bdd1914ad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Sofa_Apt_02.prefab using Guid(266d5a1d00e2ac2479b93bdd1914ad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f93addbfc1218f9ee3a34f70ba2fab') in 0.056435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 9.228964 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Dining_Apt_01.prefab
+  artifactKey: Guid(88eb65b4dea685a4cad7ad664104b001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Dining_Apt_01.prefab using Guid(88eb65b4dea685a4cad7ad664104b001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36635434d72969c3d70bdc8a7471d49') in 0.039333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 1.065184 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Computer_01_Setup.prefab
+  artifactKey: Guid(7699f5af06713974ba61777a8a830f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Computer_01_Setup.prefab using Guid(7699f5af06713974ba61777a8a830f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618fb7d533d3712491210d736586fe68') in 0.088636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 301
+========================================================================
+Received Import Request.
+  Time since last request: 1.326432 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Computer_01.prefab
+  artifactKey: Guid(85e9540880fc7824c8aff31eb2cc6498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Computer_01.prefab using Guid(85e9540880fc7824c8aff31eb2cc6498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0185e0595f17430110d2b49e86f78a2') in 0.029292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.667457 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Coffee_01.prefab
+  artifactKey: Guid(8c62e0f64b2956748ab5f5ece60bc90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Coffee_01.prefab using Guid(8c62e0f64b2956748ab5f5ece60bc90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c903ef5438dd830a9d2c413f05cc6f6a') in 0.025560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 2.066323 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Sofa_Apt_01.prefab
+  artifactKey: Guid(d46fa1eeedbcb0e41b8c735b2594b434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Sofa_Apt_01.prefab using Guid(d46fa1eeedbcb0e41b8c735b2594b434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd07bf830fc190f26a64161046b48d40') in 0.046016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 18.319340 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Dining_Apt_01_Setup Variant.prefab
+  artifactKey: Guid(8949b4a88fb989e4483115e02dfafc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Dining_Apt_01_Setup Variant.prefab using Guid(8949b4a88fb989e4483115e02dfafc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680dce92d3ae939e47cee6d016279363') in 0.037882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 39.254263 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Shelf_Apt_01.prefab
+  artifactKey: Guid(658e64758890bc24ba679c51e2cd2ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Shelf_Apt_01.prefab using Guid(658e64758890bc24ba679c51e2cd2ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dda3f5245f1cf087fbc2d85b0369cab') in 0.017212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.968294 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/WallShelf_Apt_02.prefab
+  artifactKey: Guid(372a0d77e8005d947bd72f3cf2cbde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/WallShelf_Apt_02.prefab using Guid(372a0d77e8005d947bd72f3cf2cbde53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a82920d75af7430dd99a708fe4b4da') in 0.030384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1.226189 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/WallShelf_Apt_01.prefab
+  artifactKey: Guid(3f867dd7956e96f4a90edce652fc7512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/WallShelf_Apt_01.prefab using Guid(3f867dd7956e96f4a90edce652fc7512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc3601a79ab762779c63ff4cadad42d') in 0.020013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.581097 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Side_Apt_01.prefab
+  artifactKey: Guid(355f0f3f8c2463f4d8bed401784f063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Side_Apt_01.prefab using Guid(355f0f3f8c2463f4d8bed401784f063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd203add7df75ab2825803b362f881869') in 0.030335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 17.751097 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_01_02.prefab
+  artifactKey: Guid(8af73887c9cd7fa47a2f642969b20378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Bed_Apt_01_02.prefab using Guid(8af73887c9cd7fa47a2f642969b20378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d419a20f0719b4158175fbbb286488') in 0.027558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 2.546342 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Table_End_02.prefab
+  artifactKey: Guid(28f3f85a3fb032b4cbee99b8dd59df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom/Table_End_02.prefab using Guid(28f3f85a3fb032b4cbee99b8dd59df44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791de6a727a23daa88cd8ab8f7bcb5d3') in 0.037773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 44.682860 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/CorkScrew_01.prefab
+  artifactKey: Guid(22294fbb399136745912705cd64924db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/CorkScrew_01.prefab using Guid(22294fbb399136745912705cd64924db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a1009a802fe5b82b8d9c63ff7cbc8f') in 0.014818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.377 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.137 seconds
+Domain Reload Profiling: 1513ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1138ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (521ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3601.
+Memory consumption went from 135.3 MB to 135.2 MB.
+Total: 4.157000 ms (FindLiveObjects: 0.396800 ms CreateObjectMapping: 0.155500 ms MarkObjects: 3.541600 ms  DeleteObjects: 0.061600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.407 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.112 seconds
+Domain Reload Profiling: 1517ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1113ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (515ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3604.
+Memory consumption went from 137.4 MB to 137.4 MB.
+Total: 3.252500 ms (FindLiveObjects: 0.291600 ms CreateObjectMapping: 0.111700 ms MarkObjects: 2.782900 ms  DeleteObjects: 0.064900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 311.444844 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting
+  artifactKey: Guid(65b3809457a326b41afcda181e51678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting using Guid(65b3809457a326b41afcda181e51678f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24507d684d87d607b8e1333fd174604') in 0.006465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.836601 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_01.prefab
+  artifactKey: Guid(09457ce18601f204cbd5799ff191ff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_01.prefab using Guid(09457ce18601f204cbd5799ff191ff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afad6e9319288db38212551396e31d0') in 0.092156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 12.208549 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Floor_Apt_02.prefab
+  artifactKey: Guid(b762b04c7fe35704cbdbf1806a638bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Floor_Apt_02.prefab using Guid(b762b04c7fe35704cbdbf1806a638bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcf6f6cd6b6e7fa4b37a6264148b7ad') in 0.022922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 1.742806 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_02.prefab
+  artifactKey: Guid(283fe20ffc8ff164080c612ba8cb7b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_02.prefab using Guid(283fe20ffc8ff164080c612ba8cb7b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbc819266f3dc3d341283d3586501fa') in 0.013270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.322484 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_03.prefab
+  artifactKey: Guid(f920163421f537643a94fbbfe25244f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_03.prefab using Guid(f920163421f537643a94fbbfe25244f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63d52bf163e317f11d6e5d9655d30c3') in 0.014167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.271980 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_05.prefab
+  artifactKey: Guid(36dee4e097ce701479331df2321c1de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_05.prefab using Guid(36dee4e097ce701479331df2321c1de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c769d22694ec18ff63872d92c9db71fa') in 0.019198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.486195 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_04.prefab
+  artifactKey: Guid(d71bb9c3921c635468d23f6e8bd9c406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_04.prefab using Guid(d71bb9c3921c635468d23f6e8bd9c406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23243dfb8d5355f949dead0eb3ff0b07') in 0.065536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 173.897287 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_02.prefab
+  artifactKey: Guid(283fe20ffc8ff164080c612ba8cb7b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_02.prefab using Guid(283fe20ffc8ff164080c612ba8cb7b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498f052709f08a3f880b56a33f816d54') in 0.010681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.360 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.955 seconds
+Domain Reload Profiling: 1313ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (955ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (561ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3607.
+Memory consumption went from 139.2 MB to 139.1 MB.
+Total: 3.458500 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.117100 ms MarkObjects: 3.027300 ms  DeleteObjects: 0.062700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.341 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.034 seconds
+Domain Reload Profiling: 1374ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1034ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (497ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3610.
+Memory consumption went from 141.3 MB to 141.3 MB.
+Total: 3.717100 ms (FindLiveObjects: 0.270900 ms CreateObjectMapping: 0.103300 ms MarkObjects: 3.282700 ms  DeleteObjects: 0.058600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 613.568232 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_02.prefab
+  artifactKey: Guid(283fe20ffc8ff164080c612ba8cb7b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_02.prefab using Guid(283fe20ffc8ff164080c612ba8cb7b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa392e03fbe249caf8b017b3a480f806') in 0.029415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 365.016965 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Monitor_Apt_01.prefab
+  artifactKey: Guid(1091ee0a141f2ba429668a6cc5a0f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Monitor_Apt_01.prefab using Guid(1091ee0a141f2ba429668a6cc5a0f03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfafb831f53e4a8a31d102300054419') in 0.064889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 6.519942 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/GameConsole_Apt_01.prefab
+  artifactKey: Guid(29e76f542ce050b4d8948ddead8c0c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/GameConsole_Apt_01.prefab using Guid(29e76f542ce050b4d8948ddead8c0c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa69ced01fbb57b6e1c06a8cba13b1f1') in 0.026187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.397571 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Computer_apt_01.prefab
+  artifactKey: Guid(20fbfa03139c8c44185545f076543e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Computer_apt_01.prefab using Guid(20fbfa03139c8c44185545f076543e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246b5366b6e46f5fb488a29025ade0b3') in 0.016268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 6.389233 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Mouse_apt_01.prefab
+  artifactKey: Guid(77693aa9ab898634298b44790e14e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Mouse_apt_01.prefab using Guid(77693aa9ab898634298b44790e14e5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9de9ab6d352a75e2b08af16887d21aa') in 0.015557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.638630 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/Vase_Apt_01.prefab
+  artifactKey: Guid(eeba5b089ee3b4a4cbe7167afae0e4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/Vase_Apt_01.prefab using Guid(eeba5b089ee3b4a4cbe7167afae0e4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e48196ccfd3451a78e4f121d8506fd') in 0.012431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 62.652497 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Media_01.prefab
+  artifactKey: Guid(54a1d2aa299948d4386f320102e514a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Table_Media_01.prefab using Guid(54a1d2aa299948d4386f320102e514a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdaddab0290461419a649eee9dc227b3') in 0.064087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 104
+========================================================================
+Received Import Request.
+  Time since last request: 234.639214 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Nat_05.prefab
+  artifactKey: Guid(4f13e2e193b7411478434edd7b149917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Nat_05.prefab using Guid(4f13e2e193b7411478434edd7b149917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3815761a1c86e817e7eb310eff41b1c') in 0.026276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 37.950547 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Painting_01.prefab
+  artifactKey: Guid(034a790e51efb8c42af98f9b7728dfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Painting_01.prefab using Guid(034a790e51efb8c42af98f9b7728dfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea260f258b029ee03352549aae9239b') in 0.020976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.245290 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Painting_03.prefab
+  artifactKey: Guid(4f9e8d17d08a3d346909d5dc0f404d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Painting_03.prefab using Guid(4f9e8d17d08a3d346909d5dc0f404d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bb9dda003c63c42a6a0485cc621f39') in 0.030314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.607259 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Painting_02.prefab
+  artifactKey: Guid(00c4356a751fbc5439abb629f6dc361e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Canvas_Painting_02.prefab using Guid(00c4356a751fbc5439abb629f6dc361e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689f2e2289356003f1729081e8934d31') in 0.019750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.081023 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Wall Wine Rack_Apt_01_Filled Variant.prefab
+  artifactKey: Guid(57c88468704ae69488156b563516783f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/Wall Wine Rack_Apt_01_Filled Variant.prefab using Guid(57c88468704ae69488156b563516783f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e0ddcdc538df3690a2341cddb91737') in 0.025614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 157.891862 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/WallArt_Apt_02.prefab
+  artifactKey: Guid(0d7e3cbd2cdf2e7428aa62ff7966b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art/WallArt_Apt_02.prefab using Guid(0d7e3cbd2cdf2e7428aa62ff7966b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a317e78591c7ad7abc6b13cc94e13d8') in 0.021126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 39.783682 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom
+  artifactKey: Guid(30fe921ee9d943c428556539bba76b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom using Guid(30fe921ee9d943c428556539bba76b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f30f99d7195d633acc4d2be4d5abad') in 0.002165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.495535 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BR_Vanity_01.prefab
+  artifactKey: Guid(a21b031050e1345409177a5cf15ec3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BR_Vanity_01.prefab using Guid(a21b031050e1345409177a5cf15ec3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252fc66d31ecdaf60bc3ad71f11031f2') in 0.035696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 0.459139 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/Hamper_01.prefab
+  artifactKey: Guid(811e6e74b6e3af9468ee8cf92013ce83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/Hamper_01.prefab using Guid(811e6e74b6e3af9468ee8cf92013ce83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f16b7c42ab13e24ce3683be29c79347') in 0.033604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 16.799609 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/Toilet_Apt_01.prefab
+  artifactKey: Guid(10d4ee2e07ed6c043bcfb109fd37b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/Toilet_Apt_01.prefab using Guid(10d4ee2e07ed6c043bcfb109fd37b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f14f9bca16e89f1a05e24aea5c4e3ed') in 0.012609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 4.519310 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BathTub_Base_01.prefab
+  artifactKey: Guid(cb533d6f7329a744fb5c0396de1b8b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom/BathTub_Base_01.prefab using Guid(cb533d6f7329a744fb5c0396de1b8b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca73a9b5db474527a7f8dd56f5aac5c') in 0.039917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 5.979108 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Shower_Faucet_01.prefab
+  artifactKey: Guid(642a2cb4532c08a4db221317e2019f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Shower_Faucet_01.prefab using Guid(642a2cb4532c08a4db221317e2019f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cebbb6136bbc4f485dbd393bd6b8959') in 0.012004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.632901 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/BathroomMat_01.prefab
+  artifactKey: Guid(c39a7487ae8768f46b4f6344ce704453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/BathroomMat_01.prefab using Guid(c39a7487ae8768f46b4f6344ce704453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b886d0568632ef8c28ecd0c6b7e98961') in 0.022647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.055011 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/ToothbrushCup_Filled.prefab
+  artifactKey: Guid(65acb63846e2c9a429906aa8e2ecdd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/ToothbrushCup_Filled.prefab using Guid(65acb63846e2c9a429906aa8e2ecdd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bf98925452cd4542bcc2c97df79704') in 0.018147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.583303 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/TowelRack_Apt_01.prefab
+  artifactKey: Guid(0c194d566209b524bb98efa3b5f1563e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/TowelRack_Apt_01.prefab using Guid(0c194d566209b524bb98efa3b5f1563e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232586993ffe96ab7dc697e91ae75d43') in 0.012088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.313984 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/TowelRack_Apt_02.prefab
+  artifactKey: Guid(dd22d3cb5edddc54fb43d88c8b0da7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/TowelRack_Apt_02.prefab using Guid(dd22d3cb5edddc54fb43d88c8b0da7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9175b3bf2be62d4dcb771251824b9d65') in 0.012771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 96.345798 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Floor_Apt_01.prefab
+  artifactKey: Guid(4850c514825283749bdc56155d7559a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Floor_Apt_01.prefab using Guid(4850c514825283749bdc56155d7559a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195834e597d22fdb878fbf6328d5a305') in 0.048906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 35.591219 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_BR_01.prefab
+  artifactKey: Guid(046ec50b8328aa54c96774a0cc973a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_BR_01.prefab using Guid(046ec50b8328aa54c96774a0cc973a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2994dce0dea06d0d998b8f8d03ccba54') in 0.020930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 1.648534 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_02.prefab
+  artifactKey: Guid(283fe20ffc8ff164080c612ba8cb7b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Ceiling_Apt_02.prefab using Guid(283fe20ffc8ff164080c612ba8cb7b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38405e0999d9dd618c9322c3a454deaf') in 0.001716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.979399 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Wall_Apt_01.prefab
+  artifactKey: Guid(422f7f767554b114a9a1f54038a5710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Wall_Apt_01.prefab using Guid(422f7f767554b114a9a1f54038a5710b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0303891b737eb734d5af1362a3333a4') in 0.013694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.482210 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Table_Apt_02.prefab
+  artifactKey: Guid(142ac07ac204863418a6f3f9b0ac660c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Table_Apt_02.prefab using Guid(142ac07ac204863418a6f3f9b0ac660c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d72ede76d7afd0eee588aa15316423') in 0.014861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.552474 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Table_Apt_01.prefab
+  artifactKey: Guid(3e7be61a66e072c44bc2cc6bbee79f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Table_Apt_01.prefab using Guid(3e7be61a66e072c44bc2cc6bbee79f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5279f2157d3b3f1c7cabb445b66226cd') in 0.030931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.364420 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Floor_Apt_03.prefab
+  artifactKey: Guid(d386d629c043bd849840935643a668b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Floor_Apt_03.prefab using Guid(d386d629c043bd849840935643a668b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec49fbf3f13e0c873f3b6a14ce21eb4') in 0.032572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 4029.486091 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_02.prefab
+  artifactKey: Guid(d6b5de5048b779b49847795dabf2dd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_02.prefab using Guid(d6b5de5048b779b49847795dabf2dd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad33af152bec97703f91f38e357c02f4') in 0.122410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.820228 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_Edge_01.prefab
+  artifactKey: Guid(6afcc4494dbad0147a4aec93839a9ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_Edge_01.prefab using Guid(6afcc4494dbad0147a4aec93839a9ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902bfd4c64ac59da690e8942d5a7c976') in 0.100637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1296.833930 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Wall_Apt_02.prefab
+  artifactKey: Guid(ca794718ea2a2e4438e37724e4f6a6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Wall_Apt_02.prefab using Guid(ca794718ea2a2e4438e37724e4f6a6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64135909ce488a66fcf1ee6f4d20e39') in 0.021439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 995.324889 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/DrinkingGlass_02.prefab
+  artifactKey: Guid(12df49c36886f4d468acfee364eedc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/DrinkingGlass_02.prefab using Guid(12df49c36886f4d468acfee364eedc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097bd2d8103ba1dd38f3bbf6a392b584') in 0.015642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.145803 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Plate_Apt_02_Stacked.prefab
+  artifactKey: Guid(c442118e981d163429716195e7cade2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Plate_Apt_02_Stacked.prefab using Guid(c442118e981d163429716195e7cade2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e58d96ad46014301b1dbfac1ea8cf52') in 0.012609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.202326 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen
+  artifactKey: Guid(64b32d819dc74784f921de88bc4d6117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen using Guid(64b32d819dc74784f921de88bc4d6117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b470de29e45cffe960f7077e5e0e3b7') in 0.000744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.728999 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances
+  artifactKey: Guid(9d1b8e8288d67e24fa563a8d19b1684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances using Guid(9d1b8e8288d67e24fa563a8d19b1684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd82ab881cc025b823096e2e26ce671') in 0.002027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.814391 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Fridge_01.prefab
+  artifactKey: Guid(b9f258a086096d24aa7861fa20deed65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Fridge_01.prefab using Guid(b9f258a086096d24aa7861fa20deed65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550ab6879256fe462575e106db0df8b7') in 0.059893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 249
+========================================================================
+Received Import Request.
+  Time since last request: 0.407441 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Range_Hood.prefab
+  artifactKey: Guid(add8565ea42029f4abfaa37c7dbe2abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Range_Hood.prefab using Guid(add8565ea42029f4abfaa37c7dbe2abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3a1038b00080c28568f19ee2024608') in 0.018767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.494090 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Stove_01.prefab
+  artifactKey: Guid(452921da7fe17904da8c1d34c235dee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances/Stove_01.prefab using Guid(452921da7fe17904da8c1d34c235dee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4d16b1f2d22df9547902e670d774fb') in 0.047424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 166
+========================================================================
+Received Import Request.
+  Time since last request: 2.766856 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_DD_01.prefab
+  artifactKey: Guid(226aa234041d2be48881aab9632ea78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_DD_01.prefab using Guid(226aa234041d2be48881aab9632ea78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7d37adb406e3cf575b00cc58159254') in 0.023986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.929585 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_Sink_01.prefab
+  artifactKey: Guid(1a83256f7767c2c46a1371969648490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_Sink_01.prefab using Guid(1a83256f7767c2c46a1371969648490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e52b682268c3ea4f0d716eeca87d3c2') in 0.027075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.306983 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Tall_DD_01.prefab
+  artifactKey: Guid(48e9669af95ae5746aa4ad24d893f391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Tall_DD_01.prefab using Guid(48e9669af95ae5746aa4ad24d893f391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518207cf7155b2a9a083d03ad62b7ede') in 0.018973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 46.511632 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Wall_Corner_01.prefab
+  artifactKey: Guid(f072b6d5974d6a14da67d1db1cd20b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Wall_Corner_01.prefab using Guid(f072b6d5974d6a14da67d1db1cd20b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca05594b4afed7aeea79f93faf79e75') in 0.017013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.303698 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Wall_DD_01.prefab
+  artifactKey: Guid(d2d91ff190ebafa41b8fa852ad4c0f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Wall_DD_01.prefab using Guid(d2d91ff190ebafa41b8fa852ad4c0f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096e3e0cb098adc6b36bf5efc8d16723') in 0.018989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 1.172871 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Wall_DD_02.prefab
+  artifactKey: Guid(af872b04269986143906a126ca9ff444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Wall_DD_02.prefab using Guid(af872b04269986143906a126ca9ff444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1acbc76395af7172f6ed655b94ed169') in 0.017973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 336.088683 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Bench_Apt_01.prefab
+  artifactKey: Guid(544e2a3365ece1e428837232ca8b768d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room/Bench_Apt_01.prefab using Guid(544e2a3365ece1e428837232ca8b768d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3508e23457f4747487f41d63147ee71') in 0.041417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 214.494374 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_02.prefab
+  artifactKey: Guid(93aca5305e2fdde45bd10238f67be364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_02.prefab using Guid(93aca5305e2fdde45bd10238f67be364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5a56cfa0276428024a01f8aaa48ea8') in 0.017740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.497080 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_01.prefab
+  artifactKey: Guid(6d99fe7157190374995611275c238de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_01_01.prefab using Guid(6d99fe7157190374995611275c238de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab6fe619314b5c15d4887bbcb7e51bf') in 0.032431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 3.652788 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_02_03.prefab
+  artifactKey: Guid(b6051831735950e45a12422235f03581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures/Sculpture_apt_02_03.prefab using Guid(b6051831735950e45a12422235f03581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c8160c2c43944195d098f869538b12') in 0.026519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 611.393027 seconds.
+  path: Assets/Scenes/Home Living Room.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Home Living Room.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59faa31313694b73ccffc009affc5d4') in 0.001183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.794339 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_01.unity
+  artifactKey: Guid(4f80debdb52c166478997e1d2b329e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_01.unity using Guid(4f80debdb52c166478997e1d2b329e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd1e980b1dfa498c69565fdc24c631f') in 0.000587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.911559 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Scenes/State Building.unity
+  artifactKey: Guid(4f80debdb52c166478997e1d2b329e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Scenes/State Building.unity using Guid(4f80debdb52c166478997e1d2b329e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3d0387f3222054a2c4796d89da9cb6') in 0.000566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.637 seconds
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.151 seconds
+Domain Reload Profiling: 1788ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (310ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1152ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.2 KB). Loaded Objects now: 3614.
+Memory consumption went from 143.7 MB to 143.7 MB.
+Total: 3.445100 ms (FindLiveObjects: 0.239100 ms CreateObjectMapping: 0.158600 ms MarkObjects: 2.985500 ms  DeleteObjects: 0.060400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.360 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.474 seconds
+Domain Reload Profiling: 1833ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (221ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1475ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (934ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (743ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.2 KB). Loaded Objects now: 3617.
+Memory consumption went from 145.7 MB to 145.6 MB.
+Total: 3.851000 ms (FindLiveObjects: 0.327300 ms CreateObjectMapping: 0.167400 ms MarkObjects: 3.283900 ms  DeleteObjects: 0.070800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.363 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.894 seconds
+Domain Reload Profiling: 1256ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (894ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (519ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.2 KB). Loaded Objects now: 3620.
+Memory consumption went from 147.6 MB to 147.6 MB.
+Total: 3.765200 ms (FindLiveObjects: 0.266000 ms CreateObjectMapping: 0.090300 ms MarkObjects: 3.335700 ms  DeleteObjects: 0.072000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.359 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.924 seconds
+Domain Reload Profiling: 1281ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (924ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (543ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.2 KB). Loaded Objects now: 3623.
+Memory consumption went from 149.5 MB to 149.5 MB.
+Total: 3.467600 ms (FindLiveObjects: 0.346600 ms CreateObjectMapping: 0.160600 ms MarkObjects: 2.905700 ms  DeleteObjects: 0.053100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
