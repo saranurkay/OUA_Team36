@@ -33,10 +33,11 @@ public class ObjectClicker : MonoBehaviour {
 
     private void HandleDestruction(GameObject go)
     {
-        
-        AudioSource.PlayClipAtPoint(destructionSound, go.transform.position);
-        print("ses cikti mi??");
-        // Destroy the object after a delay equal to the sound's duration
-        Destroy(go, soundDuration);
+        if(go.name == "wine thin glass Red Wine"){
+            AudioSource.PlayClipAtPoint(destructionSound, go.transform.position);
+            print("ses cikti mi??");
+            // Destroy the object after a delay equal to the sound's duration
+            Destroy(go, soundDuration);
+        }
     }
 }
