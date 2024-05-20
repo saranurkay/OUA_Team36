@@ -16,7 +16,6 @@ public class Timer : MonoBehaviour
 
         if (remainingTime < 60)
         {
-            Debug.Log(remainingTime);
             timerText.color = Color.red;
         }
         else if (remainingTime < 0)
